@@ -41,11 +41,11 @@ if( $_SERVER['REQUEST_METHOD'] === 'POST') {
                 $conn->close();
                 exit;
             }else{
-                echo "用户名密码无效";
+                echo  $_POST['name']."用户名密码无效";
             }
         }
     } else {
-        echo "用户名密码无效。";
+        echo  $_POST['name']."用户名密码无效。";
     }
     $conn->close();
 }
