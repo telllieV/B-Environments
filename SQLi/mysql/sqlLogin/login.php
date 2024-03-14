@@ -28,14 +28,14 @@ if( $_SERVER['REQUEST_METHOD'] === 'POST') {
 
 // 查询数据库
     $sql = "SELECT name  FROM users WHERE name='" . $_POST['name'] ."' AND pwd = '".$_POST['pwd']."'";
+    echo $sql;
     $result = $conn->query($sql);
     $conn->close();
-
     if ($result->num_rows > 0) {
         // 输出数据
         while ($row = $result->fetch_assoc()) {
-            setcookie( 'user',$row["name"],time()+1);
-            header('Location: sqlLogin');
+            setcookie( 'user',$row["name"],time()+5);
+            header('Location: index.php');
             exit;
         }
     } else {

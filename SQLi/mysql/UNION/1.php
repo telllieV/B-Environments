@@ -30,7 +30,7 @@
     $result = $conn->query($sql);
     $conn->close();
 
-    if ($result->num_rows > 0) {
+    if ($result && $result->num_rows > 0) {
         // 输出数据
         while ($row = $result->fetch_assoc()) {
             echo "书名:".$row['title']." 价格:".$row['price']."</br>";

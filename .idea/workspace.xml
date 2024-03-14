@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af154015-0b48-4f85-81d7-dafce694fca5" name="Changes" comment="第一次提交" />
+    <list default="true" id="af154015-0b48-4f85-81d7-dafce694fca5" name="Changes" comment="第一次提交">
+      <change afterPath="$PROJECT_DIR$/authentication/password-based/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQLi/mysql/UNION/1.php" beforeDir="false" afterPath="$PROJECT_DIR$/SQLi/mysql/UNION/1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQLi/mysql/sqlBlind/time.php" beforeDir="false" afterPath="$PROJECT_DIR$/SQLi/mysql/sqlBlind/time.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQLi/mysql/sqlLogin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/SQLi/mysql/sqlLogin/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQLi/mysql/sqlLogin/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/SQLi/mysql/sqlLogin/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication/password-based/username.php" beforeDir="false" afterPath="$PROJECT_DIR$/authentication/password-based/username.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,7 +41,7 @@
         <entry key="$PROJECT_DIR$/SQLi/mysql" value="SQLi" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/SQLi/mysql" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/bin/php" />
   <component name="ProjectColorInfo">{
@@ -46,9 +55,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "PHP Built-in Web Server.Unnamed.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "B-Environment",
+    "git-widget-placeholder": "master",
     "last_opened_file_path": "/www/admin/localhost_80/wwwroot/B-Environment",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -67,16 +77,17 @@
       <window_info id="Pull Requests" show_stripe_button="false" />
       <window_info id="Merge Requests" show_stripe_button="false" />
       <window_info id="Robo tasks" show_stripe_button="false" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2276702" />
-      <window_info active="true" id="Commit" order="1" visible="true" weight="0.2276702" />
-      <window_info active="true" id="Structure" order="2" side_tool="true" visible="true" weight="0.2276702" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22788125" />
+      <window_info id="Commit" order="1" weight="0.2276702" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.2276702" />
       <window_info anchor="bottom" id="TODO" show_stripe_button="false" />
       <window_info anchor="bottom" id="File Transfer" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Run" visible="true" weight="0.33033788" />
       <window_info anchor="bottom" id="TypeScript" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="0" visible="true" weight="0.33001047" />
+      <window_info anchor="bottom" id="Version Control" order="0" weight="0.33001047" />
       <window_info anchor="bottom" id="Problems View" order="1" weight="0.33001047" />
-      <window_info anchor="bottom" id="Terminal" order="2" weight="0.33001047" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.33033788" />
       <window_info anchor="bottom" id="Services" order="3" weight="0.33001047" />
       <window_info anchor="right" id="Coverage" side_tool="true" />
       <window_info anchor="right" id="make" show_stripe_button="false" side_tool="true" />
@@ -84,6 +95,11 @@
       <window_info anchor="right" id="AIAssistant" order="1" weight="0.25" />
       <window_info anchor="right" id="Database" order="2" weight="0.25" />
     </layout>
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" nameIsGenerated="true" document_root="$PROJECT_DIR$" host="0.0.0.0">
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -103,7 +119,8 @@
       <workItem from="1710398524302" duration="272000" />
       <workItem from="1710398821533" duration="641000" />
       <workItem from="1710399496335" duration="262000" />
-      <workItem from="1710399778651" duration="35000" />
+      <workItem from="1710399778651" duration="1471000" />
+      <workItem from="1710419374858" duration="599000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <option name="closed" value="true" />

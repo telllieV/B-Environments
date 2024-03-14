@@ -10,7 +10,7 @@
     if (isset($_COOKIE["user"])){
         echo "<h1>欢迎 " . $_COOKIE["user"] . "!</h1>";
     }else{
-        header('Location: sqlLogin/login.php');
+        header('Location: /SQLi/mysql/sqlLogin/login.php');
     }
     ?>
 
