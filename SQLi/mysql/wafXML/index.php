@@ -17,7 +17,7 @@
         var xhr = new XMLHttpRequest();
 
         // 配置 POST 请求
-        xhr.open('POST', '/wafXML', true);
+        xhr.open('POST', '/SQLi/mysql/wafXML', true);
         xhr.setRequestHeader('Content-Type', 'text/xml');
 
         // 创建 XML 数据

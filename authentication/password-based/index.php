@@ -10,7 +10,7 @@
 if (isset($_COOKIE["user"])){
     echo "<h1>欢迎 " . $_COOKIE["user"] . "!</h1>";
 }else{
-    header('Location: /authentication/password-based/username.php');
+    echo "<h1>未登录!</h1>";
 }
 ?>
 
