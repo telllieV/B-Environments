@@ -4,7 +4,7 @@ CREATE TABLE users(
                       pwd varchar(255)
 );
 
-insert into users values (0,'admin','admin');
+insert into users values (0,'women','777777');
 insert into users values (1,'zs','123123');
 insert into users values (2,'lisi','qaxcadwe');
 

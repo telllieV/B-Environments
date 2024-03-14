@@ -13,6 +13,9 @@
 
 <?php
 if( $_SERVER['REQUEST_METHOD'] === 'POST') {
+    $Strings = '0123456789abcdefghijklmnopqrstuvwxyz';
+    $cookie = substr(str_shuffle($Strings), 0, rand (1,20));
+    setcookie( 'test',$cookie,time()+1);
 // 配置数据库
     $servername = "localhost";
     $username = "root";
@@ -41,11 +44,11 @@ if( $_SERVER['REQUEST_METHOD'] === 'POST') {
                 $conn->close();
                 exit;
             }else{
-                echo  $_POST['name']."用户名密码无效";
+                echo "name and password are invalid";
             }
         }
     } else {
-        echo  $_POST['name']."用户名密码无效。";
+        echo "name and password are invalid.";
     }
     $conn->close();
 }
