@@ -13,9 +13,6 @@
 
 <?php
 if( $_SERVER['REQUEST_METHOD'] === 'POST') {
-    $Strings = '0123456789abcdefghijklmnopqrstuvwxyz';
-    $cookie = substr(str_shuffle($Strings), 0, rand (1,20));
-    setcookie( 'test',$cookie,time()+1);
 // 配置数据库
     $servername = "localhost";
     $username = "root";
@@ -36,7 +33,7 @@ if( $_SERVER['REQUEST_METHOD'] === 'POST') {
     if ($result->num_rows > 0) {
         // 输出数据
         while ($row = $result->fetch_assoc()) {
-            $sql = "SELECT name  FROM users WHERE name='" . $row['name'] ."' AND pwd ='".$_POST['pwd']."'";
+            $sql = "SELECT name  FROM users WHERE name='" . $row['name'] ."' AND pwd ='".encrypt($_POST['pwd'])."'";
             $result = $conn->query($sql);
             if ($result->num_rows > 0) {
                 setcookie( 'user',$row["name"],time()+1);
@@ -44,7 +41,7 @@ if( $_SERVER['REQUEST_METHOD'] === 'POST') {
                 $conn->close();
                 exit;
             }else{
-                echo "name and password are invalid";
+                echo "name and password are invalid.";
             }
         }
     } else {
@@ -52,7 +49,16 @@ if( $_SERVER['REQUEST_METHOD'] === 'POST') {
     }
     $conn->close();
 }
+function encrypt($str) {
+    $chars = str_split($str);
+    $encrypt = "";
+    foreach($chars as $char){
+        $i = ord($char) +1;
+        $encrypt.=chr($i);
+    }
 
+    return $encrypt;
+}
 ?>
 </body>
 </html>

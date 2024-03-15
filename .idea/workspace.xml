@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af154015-0b48-4f85-81d7-dafce694fca5" name="Changes" comment="修复登录跳转链接">
-      <change afterPath="$PROJECT_DIR$/authentication/password-based/1.php" afterDir="false" />
+    <list default="true" id="af154015-0b48-4f85-81d7-dafce694fca5" name="Changes" comment="修改了细节的随机响应修改为cookie">
+      <change afterPath="$PROJECT_DIR$/authentication/password-based/time.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SQLi/mysql/wafXML/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/SQLi/mysql/wafXML/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication/password-based/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/authentication/password-based/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication/password-based/username.php" beforeDir="false" afterPath="$PROJECT_DIR$/authentication/password-based/username.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication/password-based/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/authentication/password-based/detail.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,48 +48,59 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "PHP Built-in Web Server.Unnamed.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/www/admin/localhost_80/wwwroot/B-Environment",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;PHP Built-in Web Server.Unnamed.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/www/admin/localhost_80/wwwroot/B-Environment/authentication/password-based&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
   }
-}]]></component>
+}</component>
   <component name="RdControllerToolWindowsLayoutState" isNewUi="true">
     <layout>
       <window_info id="Space Code Reviews" show_stripe_button="false" />
       <window_info id="Bookmarks" show_stripe_button="false" side_tool="true" />
+      <window_info id="Merge Requests" show_stripe_button="false" />
       <window_info id="Commit_Guest" show_stripe_button="false" />
       <window_info id="Pull Requests" show_stripe_button="false" />
-      <window_info id="Merge Requests" show_stripe_button="false" />
       <window_info id="Robo tasks" show_stripe_button="false" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22788125" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3301062" />
       <window_info id="Commit" order="1" weight="0.22788125" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.2276702" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" show_stripe_button="false" />
       <window_info anchor="bottom" id="File Transfer" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" visible="true" weight="0.33033788" />
-      <window_info anchor="bottom" id="TypeScript" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Run" visible="true" />
+      <window_info anchor="bottom" id="Find" />
       <window_info anchor="bottom" id="Version Control" order="0" weight="0.33001047" />
       <window_info anchor="bottom" id="Problems View" order="1" weight="0.33001047" />
       <window_info anchor="bottom" id="Terminal" order="2" weight="0.33033788" />
       <window_info anchor="bottom" id="Services" order="3" weight="0.33001047" />
-      <window_info anchor="right" id="Coverage" side_tool="true" />
       <window_info anchor="right" id="make" show_stripe_button="false" side_tool="true" />
+      <window_info anchor="right" id="Coverage" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
       <window_info anchor="right" id="AIAssistant" order="1" weight="0.25" />
-      <window_info anchor="right" id="Database" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="2" weight="0.32974386" />
     </layout>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/authentication/password-based" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Unnamed" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" nameIsGenerated="true" document_root="$PROJECT_DIR$" host="0.0.0.0">
@@ -117,7 +126,8 @@
       <workItem from="1710398821533" duration="641000" />
       <workItem from="1710399496335" duration="262000" />
       <workItem from="1710399778651" duration="1471000" />
-      <workItem from="1710419374858" duration="2092000" />
+      <workItem from="1710419374858" duration="5646000" />
+      <workItem from="1710476897516" duration="643000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <option name="closed" value="true" />
@@ -143,7 +153,31 @@
       <option name="project" value="LOCAL" />
       <updated>1710420881708</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="添加认证环境-用户名枚举和细节">
+      <option name="closed" value="true" />
+      <created>1710423557774</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710423557774</updated>
+    </task>
+    <task id="LOCAL-00005" summary="修改了细节的相应包">
+      <option name="closed" value="true" />
+      <created>1710424051216</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1710424051216</updated>
+    </task>
+    <task id="LOCAL-00006" summary="修改了细节的随机响应修改为cookie">
+      <option name="closed" value="true" />
+      <created>1710425257060</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1710425257060</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,7 +238,10 @@
     </ignored-roots>
     <MESSAGE value="第一次提交" />
     <MESSAGE value="修复登录跳转链接" />
-    <option name="LAST_COMMIT_MESSAGE" value="修复登录跳转链接" />
+    <MESSAGE value="添加认证环境-用户名枚举和细节" />
+    <MESSAGE value="修改了细节的相应包" />
+    <MESSAGE value="修改了细节的随机响应修改为cookie" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改了细节的随机响应修改为cookie" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -213,6 +250,11 @@
           <url>file://$PROJECT_DIR$/authentication/password-based/username.php</url>
           <line>29</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/authentication/password-based/time.php</url>
+          <line>14</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
